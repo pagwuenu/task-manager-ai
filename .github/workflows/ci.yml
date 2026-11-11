@@ -23,6 +23,3 @@ jobs:
 
       - name: Verify app loads
         run: node -e "require('./backend/app')"
-
-      - name: Break the pipeline intentionally
-        run: exit 1
